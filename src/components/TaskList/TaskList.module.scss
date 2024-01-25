@@ -1,0 +1,49 @@
+.taskList {
+  h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+
+    span {
+      margin-right: 10px;
+      width: 25%;
+    }
+
+    select {
+      width: 120px;
+      padding: 5px;
+      margin-right: 10px;
+    }
+
+    button {
+      background-color: #dc3545;
+      color: #fff;
+      padding: 5px 10px;
+      border: none;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #c82333;
+      }
+    }
+  }
+
+  input[type='text'],
+  input[type='date'] {
+    padding: 8px;
+    font-size: 1em;
+    margin-right: 10px;
+  }
+}
+
+.taskListHeader {
+  background-color: #d0f0ff;
+}
